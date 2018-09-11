@@ -2320,6 +2320,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2366,7 +2368,8 @@ img {
         -ms-flex-align: center;
             align-items: center; }
   .filters-group__contacts .input-block__item {
-    margin-bottom: 0; } }
+    margin-bottom: 0;
+    width: 374px; } }
 
 .input-block__list {
   margin: 0;
@@ -2538,6 +2541,8 @@ img {
         -ms-flex-align: stretch;
             align-items: stretch;
     margin-bottom: 51px; }
+  .input-block__item--input:last-of-type {
+    margin-bottom: 0px; }
   .input-block__text {
     padding: 8px 0 8px 69px; }
   .input-block__input--textarea {
@@ -3103,7 +3108,8 @@ img {
         flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin-bottom: 24px; }
   .photo__list .user-photo__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3117,6 +3123,9 @@ img {
     padding-right: 33px;
     padding-bottom: 23px;
     padding-left: 28px; }
+  .photo__user-photo-text {
+    font-size: 18px;
+    margin-bottom: 48px; }
   .photo__item {
     -ms-flex-preferred-size: 300px;
         flex-basis: 300px; }
@@ -3132,6 +3141,9 @@ img {
   .photo__text {
     width: 600px;
     padding-bottom: 84px; }
+  .photo__user-photo-text {
+    padding-top: 17px;
+    margin-bottom: 45px; }
   .photo__best::before {
     top: 293px;
     right: 259px; }
